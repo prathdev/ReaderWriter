@@ -1,0 +1,7 @@
+  The readers-writers problem is a classic synchronization problem in which two distinct classes of threads exist, reader and writer.
+	 There also exists a shared memory segment called the 'critical section' which the reader and writer threads need to access.
+	  These threads can exist simultaneously in the scenario. However, the writer threads must have exclusive access to the critical section.
+	  
+	The First Readers-Writers problem requires that no reader will be kept waiting 
+	unless a writer has already obtained exclusive access to the shared object. 
+	Hence, several readers can be reading together. 

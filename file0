@@ -1,0 +1,12 @@
+
+In shared memory multiprocessor architectures, such as SMPs, threads can be used to implement parallelism. 
+Historically, hardware vendors have implemented their own proprietary versions of threads, making portability a concern for software developers.
+
+ For UNIX systems, a standardized C language threads programming interface has been specified by the IEEE POSIX 1003.1c standard.
+ 
+  Implementations that adhere to this standard are referred to as POSIX threads, or Pthreads. 
+ooo
+    * The primary motivation for using Pthreads is to realize potential program performance gains.
+
+    * When compared to the cost of creating and managing a process, a thread can be created with much less operating system overhead. 
+    Managing threads requires fewer system resources than managing processes. 

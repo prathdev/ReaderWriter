@@ -1,0 +1,15 @@
+In computer science, a semaphore is a protected variable or abstract data type that provides a simple but useful abstraction for controlling access by multiple processes to a common resource in a parallel programming environment.
+
+A useful way to think of a semaphore is as a record of how many units of a particular resource are available,
+ coupled with operations to safely (i.e. without race conditions) adjust that record as units are required or become free,
+  and if necessary wait until a unit of the resource becomes available. Semaphores are a useful tool in the prevention of race conditions and deadlocks;
+  however, their use is by no means a guarantee that a program is free from these problems. 
+  Semaphores which allow an arbitrary resource count are called counting semaphores,
+  whilst semaphores which are restricted to the values 0 and 1 (or locked/unlocked, unavailable/available) are called binary semaphores.
+
+The semaphore concept was invented by Dutch computer scientist Edsger Dijkstra,[1] 
+and the concept has found widespread use in a variety of operating systems.
+
+All POSIX semaphore functions and types are prototyped or defined in semaphore.h.
+
+
